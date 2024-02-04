@@ -2,24 +2,25 @@
 Conversor de magnitudes de longitud (m to ft) (ft to m)
 
 # Installation
-go get -v github.com/Dnnis26/converter
+ go get -v github.com/Dnnis26/converter
 
 # Usage
 
-package main
+ package main
 
-import (
-	"fmt"
+ import (
 
-	"github.com/Dnnis26/converter"
-)
+	 "fmt"
+	 "github.com/Dnnis26/converter"
 
-func main() {
+ )
 
-	m := converter.MtoF(14)
-	fmt.Println(m)
+ func main( ) {
 
-	f := converter.FtoM(44)
-	fmt.Println(f)
+	 m := converter.MtoF(14)
+	 fmt.Println(m)
 
-}
+	 f := converter.FtoM(44)
+	 fmt.Println(f)
+
+ }
